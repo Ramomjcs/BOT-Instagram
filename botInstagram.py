@@ -86,7 +86,7 @@ class InstagramBot:
                 time.sleep(5)
 
 
-jhonatanBot = InstagramBot(
+Bot = InstagramBot(
     "seuusuario", "suasenha"
 )  # Entre com o usuário e senha aqui
-jhonatanBot.login()
+Bot.login()
