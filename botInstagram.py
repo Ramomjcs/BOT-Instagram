@@ -35,7 +35,7 @@ class InstagramBot:
         password_element.send_keys(Keys.RETURN)
         time.sleep(5)
 
-        self.curtir_fotos_com_a_hastag("programacao")
+        self.curtir_fotos_com_a_hastag("atualidades")
 
     @staticmethod
     def type_like_a_person(sentence, single_input_field):
@@ -70,5 +70,5 @@ class InstagramBot:
 
 
 # Substitua pelas suas credenciais
-Bot = InstagramBot("seuusuario", "suasenha")
+Bot = InstagramBot("login", "senha")
 Bot.login()

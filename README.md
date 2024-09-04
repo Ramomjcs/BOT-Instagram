@@ -14,6 +14,12 @@ pip3 --version
 Instalar Selenium
 pip3 install selenium
 
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install xyz
+
+pip3 install selenium
+
 Instalar com geckodriver
 brew install geckodriver
 geckodriver --version
